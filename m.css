@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('https://c1.wallpaperflare.com/preview/294/960/948/university-student-graduation-photo-hats.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container h1{
+    color:tomato;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: double;
+    color: #f3b2b2;
+    padding: 4px;
+    transition: 5ms;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 30px 50px orangered inset, 0 30px 50px orangered inset, 0 30px 50px orangered inset, 0 30px 50px orangered inset, 0 30px 50px orangered inset, 0 30px 50px orangered inset, 0 30px 50px orangered inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color:rgb(136, 142, 142);
+}
+
+.content{
+    position: absolute;
+    color: beige;
+    top: 40%;
+    left: 30%;
+}
+
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.content h1{
+    font-size: 50px; 
+}
+
+.content p{
+    text-align:center;
+}
+
+.search{
+    position:absolute;
+    margin-top: 20%;
+    margin-left: 44%;
+}
+
+.search input{
+    outline: rgb(220, 220, 232);
+    border: peachpuff;
+    size: 10em;
+    width: 100%;
+}
+
+.submit{
+    position:absolute;
+    margin-top: 25%;
+    margin-left: 46%;
+}
+
+.submit{
+    text-align:center;
+}
+
+.submit a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 12px 25px;
+    background-color: orangered;
+}
