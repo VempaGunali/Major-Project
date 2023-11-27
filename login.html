@@ -37,8 +37,13 @@
                 return true; // Form will be submitted
             } else {
                 alert("Login failed");
+                resetForm();
                 return false; // Form will not be submitted
             }
+        }
+        function resetForm() {
+            document.getElementById("username").value = "";
+            document.getElementById("password").value = ""
         }
     </script>
 </body>
